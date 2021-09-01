@@ -1,0 +1,110 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 12, 2021, 5:41:12 PM
+    Author     : Owner
+*/
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    height: 100%;
+}
+
+.mainheader {
+    background-color: #f77f00;
+    color:#ebebeb;
+    font-family:cursive;
+    font-size: small;
+    padding: 5px;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align:center;
+}
+
+.counterheader {
+   background-color: #d62828;
+   color:#003049;
+   text-align: center;
+   text-align:center;
+}
+
+.bills {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight:bolder;
+    font-size:larger;
+    padding-left: 15px;
+   
+}
+
+
+.coins{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    font-weight:bolder;
+    font-size:larger;
+    padding-left: 15px;
+}
+
+.total {
+    font-weight:bolder;
+    font-size:larger;
+    text-align: center;
+}
+
+.mainfooter {
+    background-color: #f77f00;
+    color:azure;
+    font-family:'Aclonica';
+    font-size: small;
+    padding: 15px;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align:center;
+}
+
+#Calc {
+    background-color: #d62828;
+    border:20px;
+    margin-right: 25px;
+    border-radius: 25px;
+    border-style:double; 
+    color: honeydew;
+}
+
+#Calc:hover {
+   background-color: #fcbf49;
+   color:#a4133c
+}
+
+#Clear {
+    background-color: #d62828;
+    border:20px;
+    margin-right: 25px;
+    border-radius: 25px;
+    border-style:double; 
+    color: honeydew;
+}
+
+#Clear:hover {
+   background-color: #fcbf49;
+   color:#a4133c
+}
+.container {
+    background-color: #fcbf49;
+    color:#003049;
+}
