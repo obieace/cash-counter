@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head> 
+        <title>Assignment 2 of Obinna Okoye</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href ="css/moneycounter.css">
+       
+    <div class = "mainheader">
+    <h1> Assignment 2 </h1><!-- comment -->
+    <h1> Obinna Okoye</h1>
+    <h1> Instructor: Maninder Kaur Tatla</h1>
+    <hr>
+    </div> 
+    </head><!-- comment -->
+    <body>
+         
+            <div class = "counterheader">
+                <h2> Money Counter</h2>
+            </div>   
+        <div class ="container"> 
+            <br>
+            <form class = "form">
+                <div class ="bills">
+                    
+                <div class = "Div100"> 
+                    <label id="L100">$100</label><br>
+                <input type="number" size="5" id="hundred" min="0"></label> 
+                </div>
+                <div class ="Div50">
+                <label id="L50">$50</label> <br>
+                <input type="number" size="5" id="fifty" min="0"></label> 
+                </div>
+                <div class ="Div20">
+                <label id="L20">$20</label> <br>
+                <input type="number" size="5" id="twenty" min="0"></label> 
+                </div>
+                <div class ="Div10">
+                <label id="L10">$10</label> <br>
+                <input type="number" size="5" id="ten" min="0"></label> 
+                </div>
+                <div class ="Div5">
+                <label id="L5">$5</label> <br>
+                <input type="number" size="5" id="five" min="0"></label> 
+                </div> <br>
+                <input type="button" value="Calculate" id="Calc"><p id="result"></p>
+                </div>
+                <br>
+                <br>
+                <div class ="coins">
+                    
+                <div class = "Div1"> 
+                    <label id="L1">$1</label><br>
+                    <input type="number" size="5" id="loonie" min="0"></label> 
+                </div>
+                <div class ="Div25c">
+                <label id="L025">25¢</label> <br>
+                <input type="number" size="5" id="quarter" min="0"></label> 
+                </div>
+                <div class ="Div10c">
+                <label id="L010">10¢</label> <br>
+                <input type="number" size="5" id="dime" min="0"></label> 
+                </div>
+                <div class ="Div5c">
+                <label id="L05">5¢</label> <br>
+                <input type="number" size="5" id="nickle" min="0"></label> 
+                </div>
+                <div class ="Div1c">
+                <label id="L01">1¢</label> <br>
+                <input type="number" size="5" id="penny" min="0"></label> 
+                </div> <br>
+                <input type="button" value="Clear" id="Clear"><p id="result"></p>
+                </div>
+            </form>
+        
+        <br>
+        <br>
+        <br>
+                <div class="total"><!-- comment -->
+                 Total Money: 
+                 <span id="totalmoney">0</span> 
+                </div>
+              
+            
+            <br><!-- comment -->
+            <br><!-- \ -->
+            <br><!-- comment -->
+            <br>
+            <br>
+          
+        </div>  
+            
+            
+            
+            
+            
+            
+    </body>
+
+
+<footer>
+                
+                <div class= "mainfooter">
+                  <small> &copy;2021 Obinna Okoye. All rights reserved
+
+                    </small>        
+                </div>   
+    <script src="moneycounter.js"></script> 
+</footer>
+
+
+
+
+</html>
